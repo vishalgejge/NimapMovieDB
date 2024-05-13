@@ -16,7 +16,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<NowPlaying />} />
-          <Route path="/movie/nowplaying" element={<NowPlaying />} />
+          <Route path="/movie/popular" element={<Popular />} />
           <Route path="/movie/top-rated" element={<TopRated />} />
           <Route path="/movie/upcoming" element={<Upcoming />} />
           <Route path="/movie/:movie_id" element={<MovieDetails />} />
